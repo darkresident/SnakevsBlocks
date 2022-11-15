@@ -62,7 +62,7 @@ public class Buttons : MonoBehaviour
     
     public void NextLevelButton()
     {
-        if (SceneManager.GetActiveScene().buildIndex <= 3)
+        if (SceneManager.GetActiveScene().buildIndex <= 5)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             Time.timeScale = 1f;

@@ -74,7 +74,7 @@ public class Snake : MonoBehaviour
         Time.timeScale = 0f;
         PanelWin.SetActive(true);
         LevelIndex = SceneManager.GetActiveScene().buildIndex + 1;
-        if (LevelIndex >= 5)
+        if (LevelIndex >= 7)
         {
             LevelIndex = 1;
         }
